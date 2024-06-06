@@ -118,6 +118,9 @@ section#inicio > div.cena-intro p:nth-child(1){
   padding:10px;
   border-radius:20px;
 }
+section#inicio > div.cena-intro p:nth-child(3) > .efeito-texto{
+  color:rgb(1, 255, 107);
+}
 section#inicio > div.cena-intro h1{
   width:400px;
   margin:10px 0px;
