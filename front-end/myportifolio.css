@@ -136,8 +136,10 @@ section#inicio > div.cena-intro p:nth-child(1){
   padding:10px;
   border-radius:20px;
 }
-br.linha{
-  
+hr.linha{
+  width:80%;
+  border:solid .5px rgb(1, 255, 107);
+  margin:20px 0px;
 }
 section#inicio > div.cena-intro p:nth-child(4) > .efeito-texto{
   color:rgb(1, 255, 107);
