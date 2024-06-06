@@ -131,25 +131,24 @@ ul#links-sociais > li > a:hover{
   cursor:pointer;
 }
 section#inicio > div.cena-intro  p:nth-child(1){
-  animation:escrever 2000ms infinite;
+  animation:escrever 2000ms infinite steps(20);
   display:flex;
-  flex-wrap:wrap;
+  white-space:nowrap;
   align-items:center;
-  width:0ch;
+  width:1ch;
   height:20px;
   border-right:solid 1px transparent;
   overflow:hidden;
 }
-section#inicio > div.cena-intro  p:nth-child(1)::after{
-  border-right:solid 1px #fff;
-
-}
 @keyframes escrever{
   0%{
     width:0ch;
+    border-right-color:rgb(1, 255, 107);
+    box-shadow:10px 10px 1px rgb(1, 255, 107);
   }
   100%{
-    width:24ch;
+    width:19ch;
+    border-right-color:transparent;
   }
 }
 hr.linha{
