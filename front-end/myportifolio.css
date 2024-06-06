@@ -23,7 +23,7 @@ header{
   width:100%;
   height:80px;
 }
-nav{
+header nav{
   display:flex;
   align-items:center;
   justify-content:center;
@@ -33,7 +33,7 @@ nav{
   margin-left:20px;
   margin-right:20px;
 }
-ul{
+header ul{
   display:flex;
   align-items:center;
   justify-content:center;
@@ -81,9 +81,22 @@ li:hover a {
 .btn-curriculo > .img-download{
   width:25px;
 }
+/*links-redes sociais*/
+ul#links-sociais{
+  position:relative;
+  left:0;
+  top:0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background:rgb(1, 255, 107);
+  width:80px;
+  height:100vh;
+  z-index:-1;
+}
 /*responsivo no celular*/
 @media(max-width:600px){
-  nav{
+  header nav{
     display:none;
     position:fixed;
     top:0;
@@ -91,9 +104,12 @@ li:hover a {
     height:100vh;
     justify-content:center;
   }
-  ul{
+  header ul{
     flex-direction:column;
   }
+}
+#inicial{
+  display:flex;
 }
 section#inicio{
   display:flex;
@@ -103,6 +119,10 @@ section#inicio{
 }
 section#inicio > div{
   width:100%;
+  height:90vh;
+}
+section#inicio > div:nth-child(1){
+  width:40%;
   height:90vh;
 }
 section#inicio > div.cena-intro{
@@ -162,6 +182,12 @@ section#inicio > div#img-front-end > img#imgsite{
     flex-direction:column;
   }
   section#inicio > div.cena-intro{
-    
+    width:100%; 
+  }
+  #inicial{
+    flex-direction:column;
+  }
+  ul#links-sociais{
+    display:none;
   }
 }
