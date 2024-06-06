@@ -81,19 +81,6 @@ li:hover a {
 .btn-curriculo > .img-download{
   width:25px;
 }
-/*links-redes sociais*/
-ul#links-sociais{
-  position:relative;
-  left:0;
-  top:0;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  background:rgb(1, 255, 107);
-  width:80px;
-  height:100vh;
-  z-index:-1;
-}
 /*responsivo no celular*/
 @media(max-width:600px){
   header nav{
@@ -107,12 +94,6 @@ ul#links-sociais{
   header ul{
     flex-direction:column;
   }
-}
-#inicial{
-  display:flex;
-}
-ul#inicial > li > svg{
-  width:50px;
 }
 section#inicio{
   display:flex;
@@ -131,8 +112,8 @@ section#inicio > div:nth-child(1){
 section#inicio > div.cena-intro{
   display:flex;
   justify-content:center;
-  align-items:left;
-  flex-direction:column;
+  align-items:center;
+  flex-direction:row;
   margin-left:20px;
 }
 section#inicio > div.cena-intro p:nth-child(1){
@@ -186,11 +167,5 @@ section#inicio > div#img-front-end > img#imgsite{
   }
   section#inicio > div.cena-intro{
     width:100%; 
-  }
-  #inicial{
-    flex-direction:column;
-  }
-  ul#links-sociais{
-    display:none;
   }
 }
