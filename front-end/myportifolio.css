@@ -54,7 +54,7 @@ li:hover a {
   cursor:pointer;
   color:rgb(1, 255, 107);
 }
-#btn-curriculo{
+.btn-curriculo{
   font-family:"Poppins","sans-serif";
   display:flex;
   justify-content:center;
@@ -70,20 +70,21 @@ li:hover a {
   border-radius:0px 30px;
   transition:.6s;
 }
-#btn-curriculo:hover{
+.btn-curriculo:hover{
   border-radius:30px 0px;
   color:#fff;
   cursor:pointer;
 }
-#btn-curriculo:hover > #img-download{
+.btn-curriculo:hover > #img-download{
   transform:rotate(180deg);
 }
-#btn-curriculo > #img-download{
+.btn-curriculo > #img-download{
   width:25px;
 }
 /*responsivo no celular*/
 @media(max-width:600px){
   nav{
+    display:none;
     position:fixed;
     top:0;
     width:100%;
@@ -125,6 +126,10 @@ section#inicio > div.cena-intro h1{
 section#inicio > div.cena-intro > #efeito-texto{
   animation:efeitostrong 1s infinite;
 }
+section#inicio > div.cena-intro > .btn-curriculo{
+  margin-top:20px;
+  margin-left:20px;
+}
 @keyframes efeitostrong {
   0%{
     transform:translate(0);
@@ -139,6 +144,14 @@ section#inicio > div#img-front-end{
   border-radius:100% 0px 0px 50%;
   background:rgb(15, 243, 64);
 }
-section#inicio > div#img-fronr-end > img#imgsite{
+section#inicio > div#img-front-end > img#imgsite{
   width:300px;
+}
+@media(max-width:600px){
+  section#inicio{
+    flex-direction:column;
+  }
+  section#inicio > div.cena-intro{
+    
+  }
 }
