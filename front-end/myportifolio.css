@@ -131,21 +131,25 @@ ul#links-sociais > li > a:hover{
   cursor:pointer;
 }
 section#inicio > div.cena-intro  p:nth-child(1){
+  animation:escrever 2000ms infinite;
   display:flex;
   flex-wrap:wrap;
-  align-items:left;
-  width:12ch;
-  height:10px;
-  padding:10px;
-  border-right:solid 1px #FFF;
+  align-items:center;
+  width:0ch;
+  height:20px;
+  border-right:solid 1px transparent;
   overflow:hidden;
+}
+section#inicio > div.cena-intro  p:nth-child(1)::after{
+  border-right:solid 1px #fff;
+
 }
 @keyframes escrever{
   0%{
-
+    width:0ch;
   }
   100%{
-
+    width:24ch;
   }
 }
 hr.linha{
