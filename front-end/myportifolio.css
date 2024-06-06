@@ -111,6 +111,9 @@ ul#links-sociais{
 #inicial{
   display:flex;
 }
+ul#inicial > li > svg{
+  width:50px;
+}
 section#inicio{
   display:flex;
   justify-content:center;
