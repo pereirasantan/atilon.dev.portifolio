@@ -106,7 +106,7 @@ section#inicio > div{
   height:90vh;
 }
 section#inicio > div:nth-child(1){
-  width:40%;
+  width:100%;
   height:90vh;
 }
 section#inicio > div.cena-intro{
@@ -121,6 +121,7 @@ section#inicio > div.cena-intro  ul#links-sociais{
   flex-direction:column;
   justify-content:center;
   align-items:center;
+  width:200px;
   margin:0px 30px;
 }
 ul#links-sociais > li > a:hover{
@@ -164,6 +165,12 @@ section#inicio > div#img-front-end > img#imgsite{
     flex-direction:column;
   }
   section#inicio > div.cena-intro{
+    flex-direction:column-reverse;
     width:100%; 
+  }
+  section#inicio > div.cena-intro  ul#links-sociais{
+    flex-direction:row;
+    justify-content:space-around;
+    margin:0;
   }
 }
