@@ -38,7 +38,7 @@ header ul{
   align-items:center;
   justify-content:center;
   margin-right:7px;
-  gap:40px;
+  gap:45px;
 }
 li{
   list-style:none;
@@ -48,7 +48,7 @@ a{
   font-weight:700;
   text-decoration:none;
   color:#fff;
-  font-size:.8rem;
+  font-size:.9rem;
 }
 li:hover a {
   cursor:pointer;
