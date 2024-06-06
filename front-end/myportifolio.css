@@ -136,11 +136,11 @@ section#inicio > div.cena-intro p:nth-child(1){
   padding:10px;
   border-radius:20px;
 }
-section#inicio > div.cena-intro p:nth-child(3) > .efeito-texto{
-  color:rgb(1, 255, 107);
-}
-section#inicio > div.cena-intro  > article{
+br.linha{
   
+}
+section#inicio > div.cena-intro p:nth-child(4) > .efeito-texto{
+  color:rgb(1, 255, 107);
 }
 section#inicio .img-download{
   width:25px;
@@ -162,7 +162,7 @@ section#inicio > div#img-front-end{
 section#inicio > div#img-front-end > img#imgsite{
   width:400px;
 }
-@media(max-width:500px){
+@media(max-width:700px){
   section#inicio{
     flex-direction:column;
   }
@@ -174,8 +174,5 @@ section#inicio > div#img-front-end > img#imgsite{
     flex-direction:row;
     justify-content:space-around;
     margin:0;
-  }
-  section#inicio > div.cena-intro > article > h1{
-    font-size:15px;
   }
 }
