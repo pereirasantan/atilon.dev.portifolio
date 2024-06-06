@@ -116,8 +116,15 @@ section#inicio > div.cena-intro{
   flex-direction:row;
   margin-left:20px;
 }
-section#inicio > div.cena-intro ul#links-sociais svg{
-  color:red;
+section#inicio > div.cena-intro  ul#links-sociais{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:0px 30px;
+}
+ul#links-sociais > li > a:hover{
+  cursor:pointer;
 }
 section#inicio > div.cena-intro p:nth-child(1){
   width:240px;
@@ -136,24 +143,12 @@ section#inicio .img-download{
   width:25px;
   filter:invert(100);
 }
-section#inicio > div.cena-intro > #efeito-texto{
-  animation:efeitostrong 1s infinite;
-}
-section#inicio > div.cena-intro > .btn-curriculo{
+section#inicio > div.cena-intro  .btn-curriculo{
   background:.5px rgb(1, 255, 107);
-  margin-top:20px;
+  margin-top:30px;
   margin-left:20px;
 }
-@keyframes efeitostrong {
-  0%{
-    transform:translate(0);
-    opacity:1;
-  }
-  100%{
-    transform:translate(100);
-    opacity:0;
-  }
-}
+
 section#inicio > div#img-front-end{
   display:flex;
   justify-content:center;
