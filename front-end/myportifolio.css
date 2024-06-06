@@ -116,6 +116,9 @@ section#inicio > div.cena-intro{
   flex-direction:row;
   margin-left:20px;
 }
+section#inicio > div.cena-intro ul#links-sociais svg{
+  color:red;
+}
 section#inicio > div.cena-intro p:nth-child(1){
   width:240px;
   background:rgb(3, 1, 22);
