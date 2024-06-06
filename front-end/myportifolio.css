@@ -139,11 +139,8 @@ section#inicio > div.cena-intro p:nth-child(1){
 section#inicio > div.cena-intro p:nth-child(3) > .efeito-texto{
   color:rgb(1, 255, 107);
 }
-section#inicio > div.cena-intro  > article > h1{
-  display:flex;
-  flex-wrap:wrap;
-  width:400px;
-  margin:10px 0px;
+section#inicio > div.cena-intro  > article{
+  
 }
 section#inicio .img-download{
   width:25px;
@@ -177,5 +174,8 @@ section#inicio > div#img-front-end > img#imgsite{
     flex-direction:row;
     justify-content:space-around;
     margin:0;
+  }
+  section#inicio > div.cena-intro > article > h1{
+    font-size:15px;
   }
 }
