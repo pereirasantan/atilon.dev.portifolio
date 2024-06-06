@@ -75,10 +75,10 @@ li:hover a {
   color:#fff;
   cursor:pointer;
 }
-.btn-curriculo:hover > #img-download{
+.btn-curriculo:hover > .img-download{
   transform:rotate(180deg);
 }
-.btn-curriculo > #img-download{
+.btn-curriculo > .img-download{
   width:25px;
 }
 /*responsivo no celular*/
@@ -122,11 +122,15 @@ section#inicio > div.cena-intro h1{
   width:400px;
   margin:10px 0px;
 }
-
+section#inicio .img-download{
+  width:25px;
+  filter:invert(100);
+}
 section#inicio > div.cena-intro > #efeito-texto{
   animation:efeitostrong 1s infinite;
 }
 section#inicio > div.cena-intro > .btn-curriculo{
+  background:.5px rgb(1, 255, 107);
   margin-top:20px;
   margin-left:20px;
 }
@@ -141,11 +145,14 @@ section#inicio > div.cena-intro > .btn-curriculo{
   }
 }
 section#inicio > div#img-front-end{
+  display:flex;
+  justify-content:center;
+  align-items:center;
   border-radius:100% 0px 0px 50%;
   background:rgb(15, 243, 64);
 }
 section#inicio > div#img-front-end > img#imgsite{
-  width:300px;
+  width:400px;
 }
 @media(max-width:600px){
   section#inicio{
