@@ -116,6 +116,10 @@ section#inicio > div.cena-intro{
   flex-direction:row;
   margin-left:20px;
 }
+section#inicio > div#img-front-end > div#timeline{
+  display:none;
+  width:100%;
+}
 section#inicio > div.cena-intro > article{
   width:100%;
 }
@@ -189,6 +193,12 @@ section#inicio > div#img-front-end > img#imgsite{
   section#inicio > div.cena-intro{
     flex-direction:column-reverse;
     width:100%; 
+  } 
+  section#inicio > div#img-front-end > div#timeline{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
   }
   section#inicio > div.cena-intro p:nth-child(1){
     margin:20px 0px;
