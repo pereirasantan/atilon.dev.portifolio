@@ -186,12 +186,19 @@ section#inicio > div#img-front-end{
 section#inicio > div#img-front-end > img#imgsite{
   width:400px;
 }
+section#timeline{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 section#timeline > div#grupo-card{
   display:grid;
-  grid-template-columns:repeat(2,1fr);
+  grid-template-columns:repeat(1,1fr);
   grid-auto-rows:250px;
-  justify-items:center;
+  justify-items:space-around;
   align-items:center;
+  grid-gap:20px 20px;
+  margin:0px 30px;
   z-index:3;
 }
 section#timeline > div#grupo-card > div.card{
@@ -199,6 +206,7 @@ section#timeline > div#grupo-card > div.card{
   justify-content:center;
   align-items:center;
   flex-direction:column;
+  background:red;
   font-size:13px;
   padding:10px;
   border-radius:20px 0px;
@@ -228,10 +236,10 @@ section#timeline > div#grupo-card > div.card{
     border-radius:100% 0px 0px 200%;
     z-index:-1;
   }
-  section#timeline{
+  section#timeline > div#grupo-card{
     
   }
-  section#timeline > div{
+  section#timeline > div#grupo-card > div.card{
     
   }
 }
