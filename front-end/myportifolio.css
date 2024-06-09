@@ -157,11 +157,31 @@ section#inicio > div.cena-intro  p:nth-child(1){
     border-right-color:transparent;
   }
 }
-hr.linha{
+hr.linha,.line{
   width:80%;
   border:solid .5px rgb(1, 255, 107);
   margin:20px 0px;
   border-radius:0px 100%;
+}
+.line{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  position:absolute;
+  width:0;
+  height:100vh;
+  margin:0;
+  border:solid 2px rgb(1, 255, 107);
+}
+.line > .bola{
+  position:relative;
+  border:solid 5px rgb(1, 255, 107);
+  border-radius:50%;
+}
+.line > .bola{
+  position:absolute;
+  
 }
 section#inicio > div.cena-intro p:nth-child(4) > .efeito-texto{
   color:rgb(1, 255, 107);
@@ -194,12 +214,12 @@ section#timeline{
 }
 section#timeline > div#grupo-card{
   display:grid;
-  grid-template-columns:repeat(1,minmax(200px,400px));
-  grid-auto-rows:250px;
+  grid-template-columns:repeat(1,minmax(100px,400px));
+  grid-auto-rows:100px;
   align-items:center;
   justify-content:space-around;
-  grid-gap:20px 20px;
-  margin:0px 30px;
+  grid-gap:70px 20px;
+  margin:0px 20px;
   z-index:3;
 }
 section#timeline > div#grupo-card > div.card{
@@ -207,7 +227,7 @@ section#timeline > div#grupo-card > div.card{
   justify-content:center;
   align-items:center;
   flex-direction:column;
-  font-size:13px;
+  font-size:12px;
 }
 section#timeline div.card{
   position:relative;
@@ -222,7 +242,8 @@ section#timeline > div#grupo-card > div.card >p{
   color:black;
   padding:5px 10px;
   border-radius:0px 20px;
-  margin:0px 0px 20px 0px;
+  margin:0px 0px 0px 0px;
+  border-bottom:solid .5px white;
   position:relative;
   left:40%;
 }
@@ -235,7 +256,7 @@ section#timeline > div#grupo-card > div.card >article{
   align-items:center;
   justify-content:center;
   flex-direction:column;
-  background:rgba(0, 0, 0, 0.705) !important;
+  background:black !important;
   padding:10px 15px;
   border-radius:50px 0px;
   gap:10px;
