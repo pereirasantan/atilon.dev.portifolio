@@ -306,3 +306,8 @@ section#timeline > div#grupo-card > div.card >article > h3{
     margin-left:20px;
   }
 }
+
+/*animation cdn*/
+.ani{
+  visibility:hidden;
+}
