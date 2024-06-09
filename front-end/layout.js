@@ -1,6 +1,6 @@
-window.relevar = ScrollReveal({reset:true})
+window.revelar = ScrollReveal({reset:true})
 
-revelar.reveal(".ani",{
-    duration:2000,
-    distance:"90px"
+revelar.reveal(".txt-layout",{
+    duration:800,
+    distance:"20px"
 })

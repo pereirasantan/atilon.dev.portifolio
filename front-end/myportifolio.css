@@ -262,13 +262,6 @@ section#timeline > div#grupo-card > div.card >article{
   border-radius:50px 0px;
   gap:10px;
 }
-
-section#timeline > div#grupo-card > div.card >article > p{
-
-}
-section#timeline > div#grupo-card > div.card >article > h3{
-
-}
 @media(max-width:700px){
   section#inicio{
     flex-direction:column;
@@ -308,6 +301,6 @@ section#timeline > div#grupo-card > div.card >article > h3{
 }
 
 /*animation cdn*/
-.ani{
+.txt-layout{
   visibility:hidden;
 }
