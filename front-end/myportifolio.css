@@ -207,19 +207,45 @@ section#timeline > div#grupo-card > div.card{
   justify-content:center;
   align-items:center;
   flex-direction:column;
-  background:rgba(0, 0, 0, 0.527);
   font-size:13px;
-  padding:10px;
-  border-radius:20px 0px;
 }
 section#timeline div.card{
   position:relative;
   left:-70%;
-  background:rgba(0, 0, 0, 0.705) !important;
 }
 section#timeline div.card:nth-child(even){
   position:relative;
   left:70%;
+}
+section#timeline > div#grupo-card > div.card >p{
+  position:relative;
+  left:50%;
+  background: #fff;
+  color:black;
+  padding:5px 10px;
+  border-radius:0px 20px;
+  margin:0px 0px 20px 0px;
+}
+section#timeline > div#grupo-card > div.card >p:nth-child(even){
+  position:relative;
+  left:-50%;
+}
+section#timeline > div#grupo-card > div.card >article{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  background:rgba(0, 0, 0, 0.705) !important;
+  padding:10px 15px;
+  border-radius:50px 0px;
+  gap:10px;
+}
+
+section#timeline > div#grupo-card > div.card >article > p{
+
+}
+section#timeline > div#grupo-card > div.card >article > h3{
+
 }
 @media(max-width:700px){
   section#inicio{
