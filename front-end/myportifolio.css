@@ -282,10 +282,7 @@ section#timeline > div#grupo-card > div.card >article{
     display:none;
   }
   section#inicio > div#img-front-end{
-    position:absolute;
-    top:100vh;
-    border-radius:100% 0px 0px 200%;
-    z-index:-1;
+    display:none;
   }
   section#timeline > div#grupo-card{
     grid-template-columns:repeat(1,300px);
