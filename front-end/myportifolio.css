@@ -214,4 +214,19 @@ section#inicio > div#img-front-end > img#imgsite{
   section#inicio > div#img-front-end{
     border-radius:100% 0px 0px 200%;
   }
+  section#inicio > div#img-front-end > div#timeline{
+    display:flex;
+    flex-direction:column;
+  }
+  section#inicio > div#img-front-end > div#timeline > div.card{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:45%;
+    font-size:15px;
+    background:black;
+    padding:10px;
+    border-radius:20px 0px;
+  }
 }
