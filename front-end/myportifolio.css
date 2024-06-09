@@ -173,15 +173,16 @@ hr.linha,.line{
   height:100vh;
   margin:0;
   border:solid 2px rgb(1, 255, 107);
+  box-shadow:0px 0px 16px rgb(1,243,107);
 }
 .line > .bola{
   position:relative;
   border:solid 5px rgb(1, 255, 107);
   border-radius:50%;
+  box-shadow:0px 0px 16px rgb(1,243,107);
 }
-.line > .bola{
-  position:absolute;
-  
+.line > .bola:nth-child(1){
+  top:-200px;
 }
 section#inicio > div.cena-intro p:nth-child(4) > .efeito-texto{
   color:rgb(1, 255, 107);
