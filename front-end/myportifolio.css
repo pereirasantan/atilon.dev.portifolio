@@ -301,6 +301,7 @@ section#timeline > div#grupo-card > div.card >article{
 }
 
 /*animation cdn*/
-.txt-layout{
+.txt-layout,
+.txt-card{
   visibility:hidden;
 }
