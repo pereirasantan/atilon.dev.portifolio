@@ -190,6 +190,7 @@ section#timeline{
   display:flex;
   justify-content:center;
   align-items:center;
+  width:100%;
 }
 section#timeline > div#grupo-card{
   display:grid;
@@ -211,9 +212,9 @@ section#timeline > div#grupo-card > div.card{
   padding:10px;
   border-radius:20px 0px;
 }
-section#timeline > div#grupo-card > div.card:nth-child(even){
+section#timeline  div.card:nth-child(even){
   display:grid;
-  align-items:right;
+  background:red;
 }
 @media(max-width:700px){
   section#inicio{
