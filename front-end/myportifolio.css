@@ -193,7 +193,7 @@ section#timeline{
 }
 section#timeline > div#grupo-card{
   display:grid;
-  grid-template-columns:repeat(1,1fr);
+  grid-template-columns:repeat(1,minmax(200px,400px));
   grid-auto-rows:250px;
   justify-items:space-around;
   align-items:center;
@@ -206,10 +206,14 @@ section#timeline > div#grupo-card > div.card{
   justify-content:center;
   align-items:center;
   flex-direction:column;
-  background:red;
+  background:rgba(0, 0, 0, 0.527);
   font-size:13px;
   padding:10px;
   border-radius:20px 0px;
+}
+section#timeline > div#grupo-card > div.card:nth-child(even){
+  display:grid;
+  align-items:right;
 }
 @media(max-width:700px){
   section#inicio{
