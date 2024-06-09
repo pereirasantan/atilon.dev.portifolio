@@ -220,7 +220,7 @@ section#timeline > div#grupo-card{
   align-items:center;
   justify-content:space-around;
   grid-gap:70px 20px;
-  margin:0px 20px;
+  margin:20px 20px;
   z-index:3;
 }
 section#timeline > div#grupo-card > div.card{
@@ -243,7 +243,7 @@ section#timeline > div#grupo-card > div.card >p{
   color:black;
   padding:5px 10px;
   border-radius:0px 20px;
-  margin:0px 0px 0px 0px;
+  margin:10px 0px 10px 0px;
   position:relative;
   left:40%;
 }
@@ -256,7 +256,8 @@ section#timeline > div#grupo-card > div.card >article{
   align-items:center;
   justify-content:center;
   flex-direction:column;
-  background:black !important;
+  background:rgba(0, 0, 0, 0.884) !important;
+  color:#FFF;
   padding:10px 15px;
   border-radius:50px 0px;
   gap:10px;
