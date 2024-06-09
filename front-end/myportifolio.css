@@ -218,17 +218,17 @@ section#timeline div.card:nth-child(even){
   left:70%;
 }
 section#timeline > div#grupo-card > div.card >p{
-  position:relative;
-  left:50%;
-  background: #fff;
+  background: rgb(15, 243, 64);
   color:black;
   padding:5px 10px;
   border-radius:0px 20px;
   margin:0px 0px 20px 0px;
+  position:relative;
+  left:40%;
 }
 section#timeline > div#grupo-card > div.card >p:nth-child(even){
   position:relative;
-  left:-50%;
+  left:-40%;
 }
 section#timeline > div#grupo-card > div.card >article{
   display:flex;
