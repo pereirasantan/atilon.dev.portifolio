@@ -278,6 +278,9 @@ section#timeline > div#grupo-card > div.card >article{
     justify-content:space-around;
     margin:0;
   }
+  section#inicio article.txt-layout{
+    margin:0px 20px;
+  }
   section#inicio > div#img-front-end > img#imgsite{
     display:none;
   }
