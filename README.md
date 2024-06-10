@@ -9,6 +9,7 @@
 <p>
   <a href="#">acessar portifolio</a>
 </p>
-<img src="" alt="layout-portifolio"/>
+<img src="inicio.png" alt="layout-portifolio"/>
+<p>nessa parte do site e umas da partes mais importante.ela deve mostrar os links de navega/ao do site e deve conter um desgner chamativo que atraia o recrutador.nesse portifolio foi adicionado cor chamtiva que e o verde e adicionado buttoes de interatividade de downloads e efeitos nos links.alem de conetr imagen que e muito impoetante.o layout possui uma navega/ao no top e na section conten duas parte,a primeira mostra meu nome e minhas redes e a seuguna resalta um imagen que combina com o fundo.</p>
 <a href="#">saiba mais</a>
 <hr>
