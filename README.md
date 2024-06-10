@@ -17,4 +17,6 @@
 <hr>
 <h2>adicionamento da timeline</h2>
 <hr>
-<p>a segunda parte quiz fazer aulgo diferente mais criativo,sendo a di/ao da timeline.a timeline foi feita de um jeito mais profissional e contudo animada ao acontecer o scoll da tela em certos pontos do site.</p>
+<img src="timeline.png" alt="timeline"/>
+<br>
+<p>a segunda parte quiz fazer aulgo diferente mais criativo,sendo a di/ao da timeline.a timeline foi feita de um jeito mais profissional e contudo animada ao acontecer o scroll da tela em certos pontos do site.</p>
