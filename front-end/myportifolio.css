@@ -131,8 +131,11 @@ section#inicio > div.cena-intro  ul#links-sociais{
   width:200px;
   margin:0px 30px;
 }
-ul#links-sociais > li > a:hover{
+ul#links-sociais > li > a:hover svg{
+  width:33px;
+  height:102px;
   cursor:pointer;
+  transition:.3s;
 }
 section#inicio > div.cena-intro  p:nth-child(1){
   animation:escrever 2000ms  steps(20) forwards;
