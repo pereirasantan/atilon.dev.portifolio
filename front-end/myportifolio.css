@@ -81,6 +81,9 @@ li:hover a {
 .btn-curriculo > .img-download{
   width:25px;
 }
+#menu-right{
+  display:none;
+}
 /*responsivo no celular*/
 @media(max-width:700px){
   header nav{
@@ -93,6 +96,11 @@ li:hover a {
   }
   header ul{
     flex-direction:column;
+  }
+  #menu-right{
+    display:block;
+    width:33px;
+    margin-right:7px;
   }
 }
 section#inicio{
